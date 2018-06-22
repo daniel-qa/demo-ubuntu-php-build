@@ -35,7 +35,7 @@ $ make download
 ### extract
 
 ``` sh
-$ make download
+$ make extract
 ```
 
 
@@ -91,7 +91,7 @@ $ make apache-restart
 ### info-install
 
 ``` sh
-$ make apache-restart
+$ make info-install
 ```
 
 
