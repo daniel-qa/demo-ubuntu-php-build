@@ -13,7 +13,7 @@ source "$THE_BASE_DIR_PATH/init.sh"
 ### Head: main #################################################################
 #
 main_configure () {
-	cd "$THE_PHP_SRC_DIR_PATH"
+	cd "$THE_PHP_SOURCE_DIR_PATH"
 	# http://php.net/manual/en/install.unix.apache2.php
 	./configure --help
 }

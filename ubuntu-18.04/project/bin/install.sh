@@ -14,7 +14,7 @@ source "$THE_BASE_DIR_PATH/init.sh"
 #
 main_install () {
 
-	cd "$THE_PHP_SRC_DIR_PATH"
+	cd "$THE_PHP_SOURCE_DIR_PATH"
 
 	sudo make install
 }

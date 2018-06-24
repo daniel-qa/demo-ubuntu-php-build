@@ -13,8 +13,8 @@ source "$THE_BASE_DIR_PATH/init.sh"
 ### Head: main #################################################################
 #
 main_ini_development () {
-	cd "$THE_PHP_SRC_DIR_PATH"
-	sudo cp php.ini-development /opt/php-5.4.45/lib/php.ini
+	cd "$THE_PHP_SOURCE_DIR_PATH"
+	sudo cp php.ini-development "$THE_PHP_INI_INSTALL_FILE_PATH"
 }
 
 main_ini_development "$@"

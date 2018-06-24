@@ -15,7 +15,8 @@ source "$THE_BASE_DIR_PATH/init.sh"
 main_extract () {
 	cd "$THE_VAR_DIR_PATH"
 
-	tar xf php-5.4.45.tar.bz2
+	#tar xf php-5.4.45.tar.bz2
+	tar xf "$THE_PHP_SOURCE_FILE_NAME"
 }
 
 main_extract "$@"
