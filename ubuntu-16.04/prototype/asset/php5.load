@@ -1,0 +1,8 @@
+# Conflicts: php7.0
+# Depends: mpm_prefork
+LoadModule php5_module /usr/lib/apache2/modules/libphp5.so
+AddType application/x-httpd-php .php
+# http://php.net/manual/en/install.unix.apache2.php
+# https://www.google.com.tw/search?&q=LoadModule+php5_module+php+ubuntu
+# https://github.com/phpbrew/phpbrew/issues/894
+# https://github.com/phpbrew/phpbrew/wiki/Cookbook#apache2-support
