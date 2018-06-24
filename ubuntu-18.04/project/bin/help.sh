@@ -36,6 +36,7 @@ $ make install
 
 $ make mod-install
 $ make mod-enable
+$ make mod-disable
 
 $ make ini-production
 $ make ini-development
